@@ -4,6 +4,7 @@ import { Typewriter } from 'react-simple-typewriter';
 import { Link } from 'react-scroll';
 import { Download, Mail, ChevronDown } from 'lucide-react';
 import { FaGithub as Github, FaLinkedin as Linkedin } from 'react-icons/fa';
+import profileImg from '../assets/rashidprofile.jfif';
 
 const Hero = () => {
 
@@ -100,8 +101,8 @@ const Hero = () => {
           <div className="relative w-80 h-80 md:w-96 md:h-96">
             <div className="absolute inset-0 rounded-full border-2 border-cyan-400/30 animate-[spin_10s_linear_infinite]"></div>
             <div className="absolute inset-4 rounded-full border-2 border-purple-500/30 animate-[spin_15s_linear_infinite_reverse]"></div>
-            <div className="absolute inset-8 rounded-full bg-gradient-to-br from-cyan-400/20 to-purple-500/20 backdrop-blur-3xl border border-white/10 flex items-center justify-center overflow-hidden">
-              <div className="text-8xl font-bold text-white/20">MR</div>
+            <div className="absolute inset-8 rounded-full bg-cyan-900/20 border border-white/10 flex items-center justify-center overflow-hidden">
+              <img src={profileImg} alt="Md Rashid" className="w-full h-full object-cover" />
             </div>
             {/* Floating tech icons around the profile */}
             <motion.div 
