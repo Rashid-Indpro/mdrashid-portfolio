@@ -102,7 +102,7 @@ const Hero = () => {
             <div className="absolute inset-0 rounded-full border-2 border-cyan-400/30 animate-[spin_10s_linear_infinite]"></div>
             <div className="absolute inset-4 rounded-full border-2 border-purple-500/30 animate-[spin_15s_linear_infinite_reverse]"></div>
             <div className="absolute inset-8 rounded-full bg-cyan-900/20 border border-white/10 flex items-center justify-center overflow-hidden">
-              <img src={profileImg} alt="Md Rashid" className="w-full h-full object-cover" />
+              <img src={profileImg} alt="Md Rashid" className="w-full h-full object-cover scale-150" />
             </div>
             {/* Floating tech icons around the profile */}
             <motion.div 
