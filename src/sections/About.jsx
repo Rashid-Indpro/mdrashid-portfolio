@@ -22,6 +22,11 @@ const timelineData = [
     description: 'Indpro - Advanced internship focusing on specific technologies and project delivery.',
   },
   {
+    date: '09 Apr 2025 – 14 Jul 2025',
+    title: 'Part-Time Software Engineer',
+    description: 'Indpro - Software development and testing prior to joining full-time.',
+  },
+  {
     date: '25 Jul 2025 – 23 Jun 2026',
     title: 'Junior Software Engineer',
     description: 'Indpro - Full-stack development, QA automation, and contributing to major projects like Jahopp and Job Portal.',

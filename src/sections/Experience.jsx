@@ -17,6 +17,17 @@ const experienceData = [
       'Agile collaboration with cross-functional teams',
     ],
   },
+  {
+    role: 'Part-Time Software Engineer',
+    company: 'Indpro',
+    period: '09 Apr 2025 – 14 Jul 2025',
+    projects: ['Internal Projects', 'QA & Development'],
+    responsibilities: [
+      'Contributed to software development tasks part-time before transitioning to a full-time role',
+      'Assisted in testing workflows and debugging issues',
+      'Collaborated actively with the engineering team to meet project goals',
+    ],
+  },
 ];
 
 const Experience = () => {
